@@ -28,15 +28,33 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 (async () => {
 
   console.log(`
-██╗  ██╗    ███╗   ██╗ ██████╗ ██████╗ ███████╗ █████╗ ██╗     ███████╗
-╚██╗██╔╝    ████╗  ██║██╔═══██╗██╔══██╗██╔════╝██╔══██╗██║     ██╔════╝
- ╚███╔╝     ██╔██╗ ██║██║   ██║██████╔╝█████╗  ███████║██║     ███████╗
- ██╔██╗     ██║╚██╗██║██║   ██║██╔══██╗██╔══╝  ██╔══██║██║     ╚════██║
-██╔╝ ██╗    ██║ ╚████║╚██████╔╝██║  ██║███████╗██║  ██║███████╗███████║
-╚═╝  ╚═╝    ╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝
-${chalk.green('Note : use this tool at 11.00 to 16.00 so as not to get banned')}
-${chalk.red('Type : X TOOL BY NOREALS V4.2.0')}
-By : ${chalk.red('@Only_NoRealss')} - ${chalk.blue('X CHEAT DEVELOPER SINCE 2019')}
+
+██╗░░░░░░█████╗░███╗░░██╗░█████╗░
+██║░░░░░██╔══██╗████╗░██║██╔══██╗
+██║░░░░░███████║██╔██╗██║███████║
+██║░░░░░██╔══██║██║╚████║██╔══██║
+███████╗██║░░██║██║░╚███║██║░░██║
+╚══════╝╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚═╝
+───────────▄██████████████▄
+───────▄████░░░░░░░░█▀────█▄
+──────██░░░░░░░░░░░█▀──────█▄
+─────██░░░░░░░░░░░█▀────────█▄
+────██░░░░░░░░░░░░█──────────██
+───██░░░░░░░░░░░░░█──────██──██
+──██░░░░░░░░░░░░░░█▄─────██──██
+─████████████░░░░░░██────────██
+██░░░░░░░░░░░██░░░░░█████████████
+██░░░░░░░░░░░██░░░░█▓▓▓▓▓▓▓▓▓▓▓▓▓█
+██░░░░░░░░░░░██░░░█▓▓▓▓▓▓▓▓▓▓▓▓▓▓█
+─▀███████████▒▒▒▒█▓▓▓███████████▀
+────██▒▒▒▒▒▒▒▒▒▒▒▒█▓▓▓▓▓▓▓▓▓▓▓▓█
+─────██▒▒▒▒▒▒▒▒▒▒▒▒██▓▓▓▓▓▓▓▓▓▓█
+──────█████▒▒▒▒▒▒▒▒▒▒██████████
+─────────▀███████████▀
+
+${chalk.blue('Note : use this tool at 11.00 to 16.00 so as not to get banned')}
+${chalk.red('Type : X TOOL BY Lana V5.2.0')}
+By : ${chalk.red('@Lana')} - ${chalk.blue('X CHEAT DEVELOPER SINCE 1945')}
 `);
 
   const auth = rs.question('[+] Enter Authentication Code! : ');
@@ -57,10 +75,10 @@ By : ${chalk.red('@Only_NoRealss')} - ${chalk.blue('X CHEAT DEVELOPER SINCE 2019
       const crown = data.User.Crowns;
 
 console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.white(`User : ${username}`)} | ${chalk.yellow(`Trophy : ${trophy}`)} | ${chalk.red(`Crown : ${crown}`)}`));
-      await sleep(5000);
+      await sleep(2700);
 
     } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`Your Account has been Banned`));
+      console.log(chalk.bgRed(`Akun mu di ban kontol`));
      break;
     }
   }
